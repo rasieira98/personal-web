@@ -7,9 +7,6 @@ st.set_page_config(
     page_icon="🤖",
     layout="wide"
 )
-# ---- FOTO DE PERFIL ----
-image = Image.open("foto_perfil.png")
-st.image(image, width=200, caption="", use_column_width=False)
 
 # ---- HEADER ----
 st.markdown("<h1 style='text-align: center;'>Hi 👋, I'm Ramón Sieira</h1>", unsafe_allow_html=True)
@@ -114,3 +111,4 @@ st.markdown("""
 st.markdown(
     "<p style='text-align: center; font-style: italic;'>💡 \"Turning data into intelligent, scalable solutions.\"</p>",
     unsafe_allow_html=True)
+
